@@ -1,0 +1,137 @@
+/* || Global Styles || */
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: #667480;
+}
+
+body {
+    box-sizing: border-box;
+    font-size: 1.6rem;
+}
+
+/* || General Styles ||*/
+
+    body {
+        background-color: #8FA2B3;
+        width: 65rem;
+        margin: 6% auto;
+        padding: 3rem;
+        border-radius: 3rem;
+        font-family: 'Share Tech Mono', monospace;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    /*Remove arrows from input Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    }
+
+    /* Firefox */
+    input[type=number] {
+    -moz-appearance: textfield;
+    }  
+
+/* || Header ||*/
+
+header {
+    padding: 3rem;
+    border-bottom: 1px black solid;
+}
+
+.title {
+    text-align: center;
+}
+
+
+/* || Main ||*/
+
+/*Info Section*/
+
+.info-section {
+    width: 54rem;
+    margin: 2.5rem auto;
+    font-size: 1.8rem;
+}
+
+.info-wrapper {
+    margin-bottom: 3rem;
+}
+
+.card-number-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-number-container p {
+    margin-bottom: 1.5rem;
+    border-bottom: 0.1rem black solid;
+}
+
+/*Input Section*/
+    .input-section {
+        text-align: center;
+        margin: 1rem 0 1rem 0;
+    }
+
+    .input-container {
+
+    }
+
+    .input-container input {
+        font-size: 2rem;
+        width: 60%;
+        padding: 0.5rem;
+        font-family: 'Share Tech Mono', monospace;
+        outline: none;
+    }
+
+    input:focus {
+        border: 0.2rem solid #555;
+    }
+
+    .input-container button {
+        padding: 0.5rem;
+        font-size: 2rem;
+        font-family: 'Share Tech Mono', monospace;
+    }
+    
+    button:active {
+        border: 0.2rem solid #555;
+    }
+
+    /*Result*/
+    
+    .result-container {
+        padding: 2rem;
+        margin: 1rem 0 1rem 0;
+    }
+
+    .result-wrapper {
+        margin: 0 auto;
+        width: 78%;
+        font-size: 2rem;
+    }
+
+    span {
+        font-size: 2rem;
+    }
+
+/* || Footer || */
+
+footer {
+    margin-top: 2rem;
+}
+
