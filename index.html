@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <title>Validate Card Number</title>
+    <script src="/js/index.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>Validate Credit Card Number</h1>
+        </div>
+    </header>
+    <main>
+        <section class="info-section">
+            <div class="info-wrapper">
+                <p>Check the validity of a credit card number using the 
+                   <a href="https://en.wikipedia.org/wiki/Luhn_algorithm">Luhn algorithm</a>.
+                    The algorithm is a series of mathematical calculations that will Validate
+                    certain identification numbers e.g. credit card numbers.
+                    If the sum modulo 10 is 0 (if the sum divided by 10 has a remainder of 0) 
+                    then the number is valid, otherwise it is invalid. You can test the formula 
+                    using some of the card numbers below to see which are valid.
+                </p>
+            </div>
+            <div class="card-number-container">
+                <p>4539677908016808</p>
+                <p>4532778771091795</p>
+                <p>5535766768751439</p>
+                <p>5795593392134643</p>
+                <p>375796084459914</p>
+                <p>371612019985236</p>
+            </div>
+        </section>
+        <section class="input-section">
+            <div class="input-button-container">
+                <input type="number">
+                <button>Submit</button>
+            </div>
+        </section>
+        <div class="result-container hidden">
+            <div class="result-wrapper">
+                <p>the result is <span id="result"></span></p>
+                <p>The number submitted is <span id="validOrNot"></span></p>    
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>Made by <a href="https://github.com/Bnjackson">Benjamin Jackson</a></p>
+        </div>
+    </footer>
+</body>
+</html>
